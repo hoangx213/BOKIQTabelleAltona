@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fleisch>
+    
+    <item>
+        <artikelName>Ente</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>10</einheitProBestellung>
+        <schwund>0</schwund>
+        <verkaufsfaktor>3.6</verkaufsfaktor>
+        <bruttoPreis>11</bruttoPreis>
+        <nettoPreis>9.68</nettoPreis>
+        <einkaufspreis>7.98</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Hähnchenbrust</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>12</einheitProBestellung>
+        <schwund>0.05</schwund>
+        <verkaufsfaktor>7.7</verkaufsfaktor>
+        <bruttoPreis>6.70</bruttoPreis>
+        <nettoPreis>5.90</nettoPreis>
+        <einkaufspreis>3.79</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Seelachsfilet</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.10</schwund>
+        <verkaufsfaktor>7.7</verkaufsfaktor>
+        <bruttoPreis>6.20</bruttoPreis>
+        <nettoPreis>5.46</nettoPreis>
+        <einkaufspreis>4.99</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Rindoberschale</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.10</schwund>
+        <verkaufsfaktor>7.7</verkaufsfaktor>
+        <bruttoPreis>6.70</bruttoPreis>
+        <nettoPreis>5.90</nettoPreis>
+        <einkaufspreis>6.80</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Hähnchenkeule</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.15</schwund>
+        <verkaufsfaktor>3.5</verkaufsfaktor>
+        <bruttoPreis>7.2</bruttoPreis>
+        <nettoPreis>6.34</nettoPreis>
+        <einkaufspreis>3.09</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Lamm</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.10</schwund>
+        <verkaufsfaktor>7.70</verkaufsfaktor>
+        <bruttoPreis>6.90</bruttoPreis>
+        <nettoPreis>6.07</nettoPreis>
+        <einkaufspreis>8.50</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Garnelen</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.05</schwund>
+        <verkaufsfaktor>5.60</verkaufsfaktor>
+        <bruttoPreis>6.90</bruttoPreis>
+        <nettoPreis>6.07</nettoPreis>
+        <einkaufspreis>8.50</einkaufspreis>
+    </item>
+    
+    <item>
+        <artikelName>Entebrustfilet</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <schwund>0.05</schwund>
+        <verkaufsfaktor>6.00</verkaufsfaktor>
+        <bruttoPreis>12.5</bruttoPreis>
+        <nettoPreis>11.00</nettoPreis>
+        <einkaufspreis>9.90</einkaufspreis>
+    </item>
+    
+    
+</fleisch>

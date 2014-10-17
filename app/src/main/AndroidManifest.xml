@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.hx.bokIQTablleAltona"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        >
+        <activity
+            android:name="de.hx.bokIQTablleAltona.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischBestellungenActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischBestellungNachschauActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischZwischenBerichtActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischEinkaufBerichtActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeBestellungenActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeBestellungNachschauActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeZwischenBerichtActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeEinkaufBerichtActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.GesamtZwischenBericht"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.fleischActivity.FleischDiagrammActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.getraenkeActivity.GetraenkeDiagrammActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.GesamtDiagrammActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="de.hx.bokIQTablleAltona.BestellungsvorschlageActivity"
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+    </application>
+
+</manifest>

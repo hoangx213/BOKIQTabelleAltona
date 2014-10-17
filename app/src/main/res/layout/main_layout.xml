@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/fleischBtn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Fleisch"
+        android:textSize="20pt" />
+
+    <Button
+        android:id="@+id/getraenkeBtn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fleischBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Getränke"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/vonDatumFBTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:gravity="center"
+        android:text="Wählen Sie den gewünschten Bestellungssorte aus"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25pt" />
+
+    <Button
+        android:id="@+id/zwischenBerichtBtn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getraenkeBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Zwischenbericht"
+        android:textSize="20pt" />
+    
+    <LinearLayout
+        android:id="@+id/zwischenBerichtDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zwischenBerichtBtn"
+        android:orientation="horizontal"
+        android:padding="0dp" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/vonDatumBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Von" />
+
+        <TextView
+            android:id="@+id/vonDatumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bisDatumBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bis" />
+        
+        <TextView
+            android:id="@+id/bisDatumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button android:id="@+id/gesamtZwischenBerichtOKBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="OK"/>
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gesamtEndberichtBtn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zwischenBerichtDatePicker"
+        android:layout_centerHorizontal="true"
+        android:text="Endbericht"
+        android:textSize="20pt" />
+    
+    <LinearLayout
+        android:id="@+id/gesamtEndberichtBereich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gesamtEndberichtBtn"
+        android:orientation="horizontal"
+        android:padding="0dp" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/monatGesamtEBBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Monat" />
+
+        <TextView
+            android:id="@+id/monatGesamtEBTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button android:id="@+id/gesamtEBOKBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="OK"/>
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bestellungsvorschlageBtn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gesamtEndberichtBereich"
+        android:layout_centerHorizontal="true"
+        android:text="Bestellungsvorschlage"
+        android:textSize="20pt" />
+
+</RelativeLayout>

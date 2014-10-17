@@ -1,0 +1,258 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle/
+* .gradle/1.12/
+* .gradle/1.12/taskArtifacts/
+* .gradle/1.12/taskArtifacts/cache.properties
+* .gradle/1.12/taskArtifacts/cache.properties.lock
+* .gradle/1.12/taskArtifacts/fileHashes.bin
+* .gradle/1.12/taskArtifacts/fileSnapshots.bin
+* .gradle/1.12/taskArtifacts/outputFileStates.bin
+* .gradle/1.12/taskArtifacts/taskArtifacts.bin
+* .idea/
+* .idea/.name
+* .idea/BOK.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/gradle.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/androidplot_core_0_6_0.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* BOK.iml
+* build/
+* build/generated/
+* build/generated/source/
+* build/generated/source/buildConfig/
+* build/generated/source/buildConfig/debug/
+* build/generated/source/buildConfig/debug/de/
+* build/generated/source/buildConfig/debug/de/hx/
+* build/generated/source/buildConfig/debug/de/hx/bokumsatzkontroller/
+* build/generated/source/buildConfig/debug/de/hx/bokumsatzkontroller/BuildConfig.java
+* build/generated/source/r/
+* build/generated/source/r/debug/
+* build/generated/source/r/debug/de/
+* build/generated/source/r/debug/de/hx/
+* build/generated/source/r/debug/de/hx/bokumsatzkontroller/
+* build/generated/source/r/debug/de/hx/bokumsatzkontroller/R.java
+* build/intermediates/
+* build/intermediates/classes/
+* build/intermediates/classes/debug/
+* build/intermediates/classes/debug/de/
+* build/intermediates/classes/debug/de/hx/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/BestellungsvorschlageActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/BuildConfig.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/GesamtDiagrammActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/GesamtZwischenBericht.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/MainActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$attr.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$color.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$dimen.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$drawable.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$id.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$layout.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$menu.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$string.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$style.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R$xml.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/R.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischActivity$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischActivity$MyTextWatcher.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungNachschauActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$2.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$3.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$FleischBestelungenListAdapter$ViewHolder.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$FleischBestelungenListAdapter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$RemoveOneDayFBDialogFragment$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$RemoveOneDayFBDialogFragment$2.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity$RemoveOneDayFBDialogFragment.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischBestellungenActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischDiagrammActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischEinkaufBerichtActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/fleischActivity/FleischZwischenBerichtActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeActivity$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeActivity$MyTextWatcher.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungNachschauActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$2.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$3.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$GetraenkeBestelungenListAdapter$ViewHolder.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$GetraenkeBestelungenListAdapter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$RemoveOneDayFBDialogFragment$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$RemoveOneDayFBDialogFragment$2.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity$RemoveOneDayFBDialogFragment.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeBestellungenActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeDiagrammActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeEinkaufBerichtActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/getraenkeActivity/GetraenkeZwischenBerichtActivity.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/ArtikelBerichtModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/fleisch/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/fleisch/FleischBestellungModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/fleisch/FleischModel$1.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/fleisch/FleischModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/fleisch/OneDayFleischBestellungenModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/getraenke/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/getraenke/GetraenkeBestellungModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/getraenke/GetraenkeModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/models/getraenke/OneDayGetraenkeBestellungenModel.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/util/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/util/DatePickerFragment.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/util/MonthPickerFragment.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/util/Utils.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/widgets/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/widgets/HScroll.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/widgets/TwoDScrollView.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/widgets/VScroll.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischBestellungenXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischBestellungenXmlWriter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischEinkaufPreisXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischEinkaufPreisXmlWriter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischModelXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/fleisch/FleischXmlParserHelper.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeBestellungenXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeBestellungenXmlWriter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeEinkaufPreisXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeEinkaufPreisXmlWriter.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeModelXmlParser.class
+* build/intermediates/classes/debug/de/hx/bokumsatzkontroller/xml/getraenke/GetraenkeXmlParserHelper.class
+* build/intermediates/incremental/
+* build/intermediates/incremental/aidl/
+* build/intermediates/incremental/aidl/debug/
+* build/intermediates/incremental/aidl/debug/dependency.store
+* build/intermediates/incremental/mergeAssets/
+* build/intermediates/incremental/mergeAssets/debug/
+* build/intermediates/incremental/mergeAssets/debug/merger.xml
+* build/intermediates/incremental/mergeResources/
+* build/intermediates/incremental/mergeResources/debug/
+* build/intermediates/incremental/mergeResources/debug/merger.xml
+* build/intermediates/libs/
+* build/intermediates/libs/BOK-debug.ap_
+* build/intermediates/manifests/
+* build/intermediates/manifests/debug/
+* build/intermediates/manifests/debug/AndroidManifest.xml
+* build/intermediates/model_data.bin
+* build/intermediates/res/
+* build/intermediates/res/debug/
+* build/intermediates/res/debug/drawable-hdpi-v4/
+* build/intermediates/res/debug/drawable-hdpi-v4/ic_launcher.png
+* build/intermediates/res/debug/drawable-mdpi-v4/
+* build/intermediates/res/debug/drawable-mdpi-v4/ic_launcher.png
+* build/intermediates/res/debug/drawable-xhdpi-v4/
+* build/intermediates/res/debug/drawable-xhdpi-v4/ic_launcher.png
+* build/intermediates/res/debug/drawable-xxhdpi-v4/
+* build/intermediates/res/debug/drawable-xxhdpi-v4/ic_launcher.png
+* build/intermediates/res/debug/layout/
+* build/intermediates/res/debug/layout/backup_fleisch_zwischenbericht.xml
+* build/intermediates/res/debug/layout/backup_getraenke_zwischenbericht.xml
+* build/intermediates/res/debug/layout/bestellung_vorschlage.xml
+* build/intermediates/res/debug/layout/fleisch_bestellung.xml
+* build/intermediates/res/debug/layout/fleisch_bestellungen.xml
+* build/intermediates/res/debug/layout/fleisch_bestellungen_list_item.xml
+* build/intermediates/res/debug/layout/fleisch_einkaufbericht.xml
+* build/intermediates/res/debug/layout/fleisch_neue_bestellung_button.xml
+* build/intermediates/res/debug/layout/fleisch_zwischenbericht.xml
+* build/intermediates/res/debug/layout/gesamt_zwischenbericht.xml
+* build/intermediates/res/debug/layout/getraenke_bestellung.xml
+* build/intermediates/res/debug/layout/getraenke_bestellungen.xml
+* build/intermediates/res/debug/layout/getraenke_bestellungen_list_item.xml
+* build/intermediates/res/debug/layout/getraenke_einkaufbericht.xml
+* build/intermediates/res/debug/layout/getraenke_neue_bestellung_button.xml
+* build/intermediates/res/debug/layout/getraenke_zwischenbericht.xml
+* build/intermediates/res/debug/layout/main_layout.xml
+* build/intermediates/res/debug/layout/pie_chart.xml
+* build/intermediates/res/debug/layout/test.xml
+* build/intermediates/res/debug/menu/
+* build/intermediates/res/debug/menu/main.xml
+* build/intermediates/res/debug/values-sw720dp-land-v13/
+* build/intermediates/res/debug/values-sw720dp-land-v13/values.xml
+* build/intermediates/res/debug/values-v11/
+* build/intermediates/res/debug/values-v11/values.xml
+* build/intermediates/res/debug/values-v14/
+* build/intermediates/res/debug/values-v14/values.xml
+* build/intermediates/res/debug/values/
+* build/intermediates/res/debug/values/values.xml
+* build/intermediates/res/debug/xml/
+* build/intermediates/res/debug/xml/fleisch.xml
+* build/intermediates/res/debug/xml/fleisch_bestellungen.xml
+* build/intermediates/res/debug/xml/pie_segment_bier.xml
+* build/intermediates/res/debug/xml/pie_segment_ente.xml
+* build/intermediates/res/debug/xml/pie_segment_fisch.xml
+* build/intermediates/res/debug/xml/pie_segment_fleisch.xml
+* build/intermediates/res/debug/xml/pie_segment_formatter1.xml
+* build/intermediates/res/debug/xml/pie_segment_formatter2.xml
+* build/intermediates/res/debug/xml/pie_segment_formatter3.xml
+* build/intermediates/res/debug/xml/pie_segment_formatter4.xml
+* build/intermediates/res/debug/xml/pie_segment_formatter5.xml
+* build/intermediates/res/debug/xml/pie_segment_kaffee_und_tee.xml
+* build/intermediates/res/debug/xml/pie_segment_premix_und_wasser.xml
+* build/intermediates/res/debug/xml/pie_segment_sonstige.xml
+* build/intermediates/res/debug/xml/pie_segment_wein.xml
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/androidplot-core-0.6.0.jar => app/libs/androidplot-core-0.6.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

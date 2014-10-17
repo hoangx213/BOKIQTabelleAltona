@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2012 AndroidPlot.com
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.androidplot.pie.PieChart
+        android:id="@+id/diagrammView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        androidPlot.title=""
+        androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size"
+        android:background="@color/Gray" />
+
+    <LinearLayout
+        android:id="@+id/fleischInfos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightYellow"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Nettoumsatz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Anteil"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Fleisch"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Ente"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammEnteNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammEnteNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Fisch"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFischNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFischNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Sushifisch"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammSushifischNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammSushifischNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Sonstige"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischSonstigeNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischSonstigeNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Total"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/diagrammFleischTotalNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/getraenkeInfos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightYellow"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Nettoumsatz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Anteil"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Premix und Wasser"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammPremixUndWasserNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammPremixUndWasserNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Bier"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammBierNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammBierNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Wein"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammWeinNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammWeinNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Kaffee und Tee"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammKaffeeUndTeeNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammKaffeeUndTeeNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Sonstige"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammGetraenkeSonstigeNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammGetraenkeSonstigeNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Total"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/diagrammGetraenkeTotalNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/gesamtInfos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightYellow"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Nettoumsatz"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Anteil"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Fleisch"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischGesamtNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammFleischGesamtNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                
+                <Button
+                    android:id="@+id/toFleischEndbericht"
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="21dp"
+                    android:text="Detail"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Getränke"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammGetraenkeGesamtNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/diagrammGetraenkeGesamtNettoUmsatzAnteil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                
+                <Button
+                    android:id="@+id/toGetraenkeEndbericht"
+                    android:layout_width="150dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="21dp"
+                    android:text="Detail"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_marginBottom="2dip"
+                android:layout_marginTop="8dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="Total"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/diagrammTotalGesamtNettoUmsatz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="21dp"
+                    android:text="0.0€"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

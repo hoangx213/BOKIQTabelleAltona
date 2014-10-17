@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <Button
+            android:id="@+id/einkaufsberichtBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Einkaufsbericht" />
+
+        <Button
+            android:id="@+id/zwischenberichtBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zwischenbericht" />
+
+        <Button
+            android:id="@+id/endberichtBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endbericht" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zwischenBerichtDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/vonDatumFBBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Von" />
+
+        <TextView
+            android:id="@+id/vonDatumFBTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/bisDatumFBBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bis" />
+        
+        <TextView
+            android:id="@+id/bisDatumFBTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button android:id="@+id/zwischenBerichtOKBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="OK"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/einkaufBerichtDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp" 
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/monatEBBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Monat" />
+
+        <TextView
+            android:id="@+id/monatEBTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <Button android:id="@+id/einkaufBerichtOKBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:text="OK"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="0dp"
+        android:text="FLEISCHBESTELLUNGEN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/fleischBestellungenListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<getraenke>
+    <item>
+        <artikelName>Cola Prem</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>18</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.40</verkaufspreis>
+        <einkaufspreis>25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Premix</kategorie>
+        <order>1</order>
+    </item>
+    <item>
+        <artikelName>Fanta Prem</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>18</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.40</verkaufspreis>
+        <einkaufspreis>25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Premix</kategorie>
+        <order>2</order>
+    </item>
+    <item>
+        <artikelName>Sprite Prem</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>18</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.40</verkaufspreis>
+        <einkaufspreis>25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Premix</kategorie>
+        <order>3</order>
+    </item>
+    <item>
+        <artikelName>Cola Light Prem</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>18</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.40</verkaufspreis>
+        <einkaufspreis>25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Premix</kategorie>
+        <order>4</order>
+    </item>
+    <item>
+        <artikelName>Bonaqua Tafel Prem</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>18</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.40</verkaufspreis>
+        <einkaufspreis>18.5</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Premix</kategorie>
+        <order>5</order>
+    </item>
+    <item>
+        <artikelName>Weissbier Hefe</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>13.40</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>6</order>
+    </item>
+    <item>
+        <artikelName>Weissbier Alkoholfrei</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>13.40</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>7</order>
+    </item>
+    <item>
+        <artikelName>Weissbier Kristall</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>13.40</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>8</order>
+    </item>
+    <item>
+        <artikelName>Pinkus Malz 0,33</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>12.70</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>9</order>
+    </item>
+    <item>
+        <artikelName>Köster Schwarz 0,5</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>12.70</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>10</order>
+    </item>
+    <item>
+        <artikelName>Warsteiner Alkoholfrei</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>12.20</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Flaschebier</kategorie>
+        <order>11</order>
+    </item>
+    <item>
+        <artikelName>Orangensaft</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>6</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.70</verkaufspreis>
+        <einkaufspreis>8.60</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Saft</kategorie>
+        <order>12</order>
+    </item>
+    <item>
+        <artikelName>Apfelsaft</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>6</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.70</verkaufspreis>
+        <einkaufspreis>5.90</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Saft</kategorie>
+        <order>13</order>
+    </item>
+    <item>
+        <artikelName>Klind Ananas</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>6</einheitProBestellung>
+        <einheitProGlas>0.1</einheitProGlas>
+        <verkaufspreis>5.00</verkaufspreis>
+        <einkaufspreis>10.14</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Saft</kategorie>
+        <order>14</order>
+    </item>
+    <item>
+        <artikelName>Klind Pfirsisch</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>6</einheitProBestellung>
+        <einheitProGlas>0.1</einheitProGlas>
+        <verkaufspreis>5.00</verkaufspreis>
+        <einkaufspreis>9.20</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Saft</kategorie>
+        <order>15</order>
+    </item>
+    <item>
+        <artikelName>Perrier</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>12</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>4.20</verkaufspreis>
+        <einkaufspreis>12.81</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wasser</kategorie>
+        <order>16</order>
+    </item>
+    <item>
+        <artikelName>Vittel</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>12</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>4.80</verkaufspreis>
+        <einkaufspreis>9.15</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wasser</kategorie>
+        <order>17</order>
+    </item>
+    <item>
+        <artikelName>Bionade Holunder</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>14.8</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>18</order>
+    </item>
+    <item>
+        <artikelName>Bionade Ingwer</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>14.8</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>19</order>
+    </item>
+    <item>
+        <artikelName>Aloha Mango</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>11.5</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>20</order>
+    </item>
+    <item>
+        <artikelName>Aloha Grapenfruit</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>11.5</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>21</order>
+    </item>
+    
+    
+    <item>
+        <artikelName>Schwep Ginger 0,2</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>11.50</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>22</order>
+    </item>
+    <item>
+        <artikelName>Schweb Bitter</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>11.50</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schwebe, Bonaqua</kategorie>
+        <order>23</order>
+    </item>
+    <item>
+        <artikelName>Warsteiner Fass 50l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>50</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>66.25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Fassbier</kategorie>
+        <order>24</order>
+    </item>
+    <item>
+        <artikelName>Warsteiner Fass 30l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>30</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>40.25</einkaufspreis>
+        <schwund>0.05</schwund>
+        <kategorie>Fassbier</kategorie>
+        <order>25</order>
+    </item>
+    <item>
+        <artikelName>Hefeweissen Fass 30l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>30</einheitProBestellung>
+        <einheitProGlas>0.3</einheitProGlas>
+        <verkaufspreis>2.50</verkaufspreis>
+        <einkaufspreis>43.40</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Fassbier</kategorie>
+        <order>26</order>
+    </item>
+    
+    <item>
+        <artikelName>Bier Tschingtao</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.70</verkaufspreis>
+        <einkaufspreis>15.99</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>27</order>
+    </item>
+    <item>
+        <artikelName>Bier Singha</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>2.90</verkaufspreis>
+        <einkaufspreis>19.90</einkaufspreis>
+        <schwund>0</schwund>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>28</order>
+    </item>
+    <item>
+        <artikelName>Pflaumenwein 5L</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>5</einheitProBestellung>
+        <einheitProGlas>0.05</einheitProGlas>
+        <verkaufspreis>2.30</verkaufspreis>
+        <einkaufspreis>15.63</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>29</order>
+    </item>
+    <item>
+        <artikelName>Bambusschnaps 0,5L</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.5</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.50</verkaufspreis>
+        <einkaufspreis>9.01</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>30</order>
+    </item>
+    <item>
+        <artikelName>Mekong</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.50</verkaufspreis>
+        <einkaufspreis>13.50</einkaufspreis>
+        <schwund>0.20</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>31</order>
+    </item>
+    <item>
+        <artikelName>Sake</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>5.0</einheitProBestellung>
+        <einheitProGlas>0.2</einheitProGlas>
+        <verkaufspreis>3.40</verkaufspreis>
+        <einkaufspreis>29.50</einkaufspreis>
+        <schwund>0.10</schwund>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>32</order>
+    </item>
+    <item>
+        <artikelName>Jasmintee 500g</artikelName>
+        <einheit>Gramm</einheit>
+        <einheitProBestellung>500</einheitProBestellung>
+        <einheitProGlas>10</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>6.00</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>33</order>
+    </item>
+    <item>
+        <artikelName>Grüner Tee</artikelName>
+        <einheit>Gramm</einheit>
+        <einheitProBestellung>500</einheitProBestellung>
+        <einheitProGlas>10</einheitProGlas>
+        <verkaufspreis>2.80</verkaufspreis>
+        <einkaufspreis>12.00</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>34</order>
+    </item>
+    <item>
+        <artikelName>Datteltee</artikelName>
+        <einheit>Gramm</einheit>
+        <einheitProBestellung>550</einheitProBestellung>
+        <einheitProGlas>20</einheitProGlas>
+        <verkaufspreis>2.90</verkaufspreis>
+        <einkaufspreis>4.00</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>35</order>
+    </item>
+    <item>
+        <artikelName>Kaffee</artikelName>
+        <einheit>Gramm</einheit>
+        <einheitProBestellung>1000</einheitProBestellung>
+        <einheitProGlas>10</einheitProGlas>
+        <verkaufspreis>2.00</verkaufspreis>
+        <einkaufspreis>12.00</einkaufspreis>
+        <schwund>0.05</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Asiatische Lieferung</kategorie>
+        <order>36</order>
+    </item>
+    
+    <item>
+        <artikelName>Kaffeesahne 240</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>0.021</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>37</order>
+    </item>
+    <item>
+        <artikelName>Zuckerstick 1000x4g</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1000</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>12.90</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>38</order>
+    </item>
+    <item>
+        <artikelName>Butter Nussschokos 100</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>0.12</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>39</order>
+    </item>
+    <item>
+        <artikelName>Pregel Yogomix</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>16.02</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>40</order>
+    </item>
+    <item>
+        <artikelName>Pregel Joghurt</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>8.96</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>41</order>
+    </item>
+    <item>
+        <artikelName>Pregel Melonepaste</artikelName>
+        <einheit>Stück</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>11.07</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Backring Nord</kategorie>
+        <order>42</order>
+    </item>
+    <item>
+        <artikelName>Barcadi 0,7l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>5.50</verkaufspreis>
+        <einkaufspreis>9.90</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>43</order>
+    </item>
+    <item>
+        <artikelName>Gorba. Wodka 0,7l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>5.50</verkaufspreis>
+        <einkaufspreis>5.79</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>44</order>
+    </item>
+    <item>
+        <artikelName>Vodka grey goose</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>4.00</verkaufspreis>
+        <einkaufspreis>37.00</einkaufspreis>
+        <schwund>0.20</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>45</order>
+    </item>
+    <item>
+        <artikelName>Whisky macallan sherry</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>5.00</verkaufspreis>
+        <einkaufspreis>52.00</einkaufspreis>
+        <schwund>0.20</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>46</order>
+    </item>
+    <item>
+        <artikelName>Hennessy Cognac</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>5.00</verkaufspreis>
+        <einkaufspreis>37.99</einkaufspreis>
+        <schwund>0.20</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>47</order>
+    </item>
+    <item>
+        <artikelName>Linie Aquavit L</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.50</verkaufspreis>
+        <einkaufspreis>18.79</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>48</order>
+    </item>
+    <item>
+        <artikelName>Moliari Sambuca L</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>14.49</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>49</order>
+    </item>
+    <item>
+        <artikelName>Tequ. Sierra 0,7l</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.50</verkaufspreis>
+        <einkaufspreis>8.99</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>50</order>
+    </item>
+    <item>
+        <artikelName>Martini Bianco</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.05</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>7.00</einkaufspreis>
+        <schwund>0.15</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>51</order>
+    </item>
+    <item>
+        <artikelName>Averna</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.02</einheitProGlas>
+        <verkaufspreis>2.60</verkaufspreis>
+        <einkaufspreis>11.90</einkaufspreis>
+        <schwund>0.15</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Schnapps</kategorie>
+        <order>52</order>
+    </item>
+    <item>
+        <artikelName>Pinot Grigio</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>2.60</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>53</order>
+    </item>
+    
+    <item>
+        <artikelName>Prosecco Villa Isa</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>12.50</verkaufspreis>
+        <einkaufspreis>2.55</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>54</order>
+    </item>
+    <item>
+        <artikelName>Prosecco Piccolo</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>24.00</einheitProBestellung>
+        <einheitProGlas>1.00</einheitProGlas>
+        <verkaufspreis>4.80</verkaufspreis>
+        <einkaufspreis>31.20</einkaufspreis>
+        <schwund>0.0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>55</order>
+    </item>
+    <item>
+        <artikelName>Merlot</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>2.40</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>56</order>
+    </item>
+    <item>
+        <artikelName>Montepulciano</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.7</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.40</verkaufspreis>
+        <einkaufspreis>3.20</einkaufspreis>
+        <schwund>0.15</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>57</order>
+    </item>
+    <item>
+        <artikelName>Milara</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.80</verkaufspreis>
+        <einkaufspreis>4.00</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>58</order>
+    </item>
+    <item>
+        <artikelName>Marco Real Crianza</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.80</verkaufspreis>
+        <einkaufspreis>4.40</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>59</order>
+    </item>
+    
+    <item>
+        <artikelName>Chardonnay</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>3.80</verkaufspreis>
+        <einkaufspreis>2.60</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>60</order>
+    </item>
+    <item>
+        <artikelName>Riesling Eser</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.80</verkaufspreis>
+        <einkaufspreis>4.00</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>61</order>
+    </item>
+    
+    <item>
+        <artikelName>Chenin Blanc Welmoed</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.10</verkaufspreis>
+        <einkaufspreis>3.70</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>62</order>
+    </item>
+    <item>
+        <artikelName>Gavi</artikelName>
+        <einheit>Liter</einheit>
+        <einheitProBestellung>0.75</einheitProBestellung>
+        <einheitProGlas>0.20</einheitProGlas>
+        <verkaufspreis>4.40</verkaufspreis>
+        <einkaufspreis>3.90</einkaufspreis>
+        <schwund>0.10</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>63</order>
+    </item>
+    <item>
+        <artikelName>Cotes du Rhone</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>18.20</verkaufspreis>
+        <einkaufspreis>6.50</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>64</order>
+    </item>
+    <item>
+        <artikelName>Sauvignon Cataldo</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>15.20</verkaufspreis>
+        <einkaufspreis>3.50</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>65</order>
+    </item>
+    <item>
+        <artikelName>Riesling Spätlese</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>18.20</verkaufspreis>
+        <einkaufspreis>2.60</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>66</order>
+    </item>
+    <item>
+        <artikelName>Shiraz Welmoed</artikelName>
+        <einheit>Flasche</einheit>
+        <einheitProBestellung>1</einheitProBestellung>
+        <einheitProGlas>1</einheitProGlas>
+        <verkaufspreis>18.30</verkaufspreis>
+        <einkaufspreis>4.90</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Wein</kategorie>
+        <order>67</order>
+    </item>
+    <item>
+        <artikelName>Kohlensäure 10Kg</artikelName>
+        <einheit>kg</einheit>
+        <einheitProBestellung>10</einheitProBestellung>
+        <einheitProGlas>0.00</einheitProGlas>
+        <verkaufspreis>0.00</verkaufspreis>
+        <einkaufspreis>30.50</einkaufspreis>
+        <schwund>0</schwund>
+        <festAnteil>0.0</festAnteil>
+        <kategorie>Kohlensaeure</kategorie>
+        <order>68</order>
+    </item>
+</getraenke>

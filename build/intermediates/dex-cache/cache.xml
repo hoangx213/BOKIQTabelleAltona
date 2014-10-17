@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/hoang/AndroidStudioWorkspace/BOKIQTabelleAltona/app/build/intermediates/pre-dexed/debug/android-support-v4-66290bf974c2e5e908daa0d8d305be49fdf6e48f.jar"
+        jar="/home/hoang/AndroidStudioWorkspace/BOKIQTabelleAltona/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
+    <item
+        dex="/home/hoang/AndroidStudioWorkspace/BOKIQTabelle/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.0-8a1c4a5085a11db21f661fab67d9b134066f503b.jar"
+        jar="/home/hoang/AndroidStudioWorkspace/BOKIQTabelle/app/libs/androidplot-core-0.6.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f748797c749973ce1364ea8cc640744b64f78709"/>
+    <item
+        dex="/home/hoang/AndroidStudioWorkspace/BOKIQTabelleAltona/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.0-ae1670cb28798d3fd8ca41af6172f7e75a8b6b07.jar"
+        jar="/home/hoang/AndroidStudioWorkspace/BOKIQTabelleAltona/app/libs/androidplot-core-0.6.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f748797c749973ce1364ea8cc640744b64f78709"/>
+    <item
+        dex="/home/hoang/AndroidStudioWorkspace/BOKIQTabelle/app/build/intermediates/pre-dexed/debug/android-support-v4-32b7a5a8d126ba0bc3edc77c1c24b119c300ff1c.jar"
+        jar="/home/hoang/AndroidStudioWorkspace/BOKIQTabelle/app/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4"/>
+
+</pre-dex-items>
